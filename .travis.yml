@@ -2,6 +2,10 @@ language: java
 jdk:
 - openjdk8
 addons:
+    apt:
+	addons:
+      packages:
+        ant
  sonarcloud:
  organization: praysc
  token:
